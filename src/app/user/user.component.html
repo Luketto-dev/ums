@@ -1,0 +1,11 @@
+<td>{{ user?.name }}</td>
+<td>{{ user?.lastname }}</td>
+<td>{{ user?.fiscalcode }}</td>
+<td>{{ user?.email }}</td>
+<td>{{ user?.province }}</td>
+<td>{{ user?.phone }}</td>
+<td>{{ user?.age }}</td>
+<td>
+    <button (click)="updateUser()" class="update">Update</button>
+    <button (click)="deleteUser()" class="delete">Delete</button>
+</td>

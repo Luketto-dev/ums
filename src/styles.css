@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.users-container{
+    display:flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 15px;
+    
+}
+
+
+.users{
+    width: 100%;
+}
+
+
+.user-detail{
+    width: 100%;
+}
